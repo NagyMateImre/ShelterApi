@@ -1,5 +1,51 @@
 [
   {
+    "ContainingType": "ShelterApi.Controllers.QueriesController",
+    "Method": "AllAnimalsWithShelter",
+    "RelativePath": "(queries/allAnimalsWithShelter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShelterApi.Controllers.QueriesController",
+    "Method": "AllSheltersWithAnimals",
+    "RelativePath": "(queries/allSheltersWithAnimals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShelterApi.Controllers.QueriesController",
+    "Method": "AnimalCountByShelter",
+    "RelativePath": "(queries/animalCountByShelter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShelterApi.Controllers.QueriesController",
+    "Method": "AnimalsOfShelter",
+    "RelativePath": "(queries/animalsOfShelter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shelterId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ShelterApi.Controllers.AnimalsController",
     "Method": "AllAnimal",
     "RelativePath": "animals/allAnimal",
@@ -50,8 +96,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
+        "Name": "newAnimalDTO",
         "Type": "ShelterApi.Models.DTO.NewAnimalDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShelterApi.Controllers.AnimalsController",
+    "Method": "Update",
+    "RelativePath": "animals/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateAnimaDTO",
+        "Type": "ShelterApi.Models.DTO.UpdateAnimaDTO",
         "IsRequired": true
       }
     ],
