@@ -150,3 +150,5 @@ C:\Users\NagyMI\source\repos\ShelterApi\obj\Debug\net10.0\refint\ShelterApi.dll
 C:\Users\NagyMI\source\repos\ShelterApi\obj\Debug\net10.0\ShelterApi.pdb
 C:\Users\NagyMI\source\repos\ShelterApi\obj\Debug\net10.0\ShelterApi.genruntimeconfig.cache
 C:\Users\NagyMI\source\repos\ShelterApi\obj\Debug\net10.0\ref\ShelterApi.dll
+C:\Users\NagyMI\source\repos\ShelterApi\obj\Debug\net10.0\ShelterApi.sourcelink.json
+C:\Users\NagyMI\source\repos\ShelterApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
